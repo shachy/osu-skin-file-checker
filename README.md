@@ -4,7 +4,7 @@ CLI program to check what files are missing in your osu!skin
 # Installation:
 
 `go install github.com/shachy/osu-skin-file-checker`
-or download the `.exe`
+or download the `.exe` file
 
 # Usage:
 
