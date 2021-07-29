@@ -61,7 +61,7 @@ func SkfContainsName(n []string) []string {
 }
 
 func CheckFolder(args []string) error {
-	var DIRPATH = args[0]
+	const DIRPATH = args[0]
 	file, err := os.Open(DIRPATH)
 	if err != nil {
 		return err
